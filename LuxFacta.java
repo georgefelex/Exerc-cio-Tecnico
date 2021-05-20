@@ -1,4 +1,4 @@
-package br.com.luxfacta;
+package luxfacta;
 
 /*******************************************************************************
   A classe LuxFacta recebe um parâmetro no seu construtor que é sempre um número
@@ -34,7 +34,7 @@ public class LuxFacta {
 	    	System.out.println("Facto");
 	    	//Caso n�o seja divisivel nem por 3 nem por 5 imprimisse LuxFactor 
 	    }else if(divisivelPorTres == false && divisivelPorCinco == false) {
-	    	System.out.println("LuxFacto");
+	    	System.out.println("LuxFacta");
 	    }else if(divisivelPorTres) {
 	    	System.out.println(n);	
 	    }else if(divisivelPorCinco) {
